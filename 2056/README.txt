@@ -4,7 +4,8 @@ Evidence for camera-space depth filtering (related issue: #1359)
 What is measured
 ----------------
 The numerical CSV files capture the actual project_points_and_sample function
-from independently built baseline and patched PyTorch3D checkouts. The fixed
+from separate baseline and patched source checkouts, using the same complete
+native extension built at the main baseline. The fixed
 input is four points: front (z=2), behind (z=-2), on the camera plane (z=0), and
 small positive depth (z=0.0001, below the existing eps=0.01). A ramp feature map
 and soft mask are bilinearly sampled through a real PerspectiveCameras instance.
