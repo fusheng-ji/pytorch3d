@@ -6,6 +6,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+#include <c10/macros/Macros.h>
 #include <float.h>
 #include <math.h>
 #include <cstdio>
@@ -29,9 +30,8 @@ _TRIS gives the triangle faces of the 3D box
 */
 const int NUM_PLANES = 6;
 const int NUM_TRIS = 12;
-// This is required for iniitalizing the faces
-// in the intersecting shape
-const int MAX_TRIS = 100;
+// Each plane can split every triangle into at most two triangles.
+const int MAX_TRIS = NUM_TRIS * (1 << NUM_PLANES);
 
 // Create data types for representing the
 // verts for each face and the indices.
@@ -697,18 +697,20 @@ __device__ inline int ClipTriByPlane(
 //      i.e. the valid faces which have been saved
 //      to face_verts_out
 //
+// Both face_verts_out and the caller-owned tri_verts_updated scratch must
+// have room for MAX_TRIS faces.
+//
 template <typename FaceVertsPlane, typename FaceVertsBox>
 __device__ inline int BoxIntersections(
     const FaceVertsPlane& planes,
     const float3& center,
-    FaceVertsBox& face_verts_out) {
+    FaceVertsBox& face_verts_out,
+    FaceVertsBox& tri_verts_updated) {
   // Initialize num tris to 12
   int num_tris = NUM_TRIS;
   for (int p = 0; p < NUM_PLANES; ++p) {
     // Get plane normal direction
     const float3 n2 = PlaneNormalDirection(planes[p], center);
-    // Create intermediate vector to store the updated tris
-    FaceVerts tri_verts_updated[MAX_TRIS];
     int offset = 0;
 
     // Iterate through triangles in face_verts_out
@@ -718,6 +720,7 @@ __device__ inline int BoxIntersections(
       FaceVerts tri_updated[2];
       const int count =
           ClipTriByPlane(planes[p], face_verts_out[t], n2, tri_updated);
+      CUDA_KERNEL_ASSERT(offset + count <= MAX_TRIS);
       // Add to the tri_verts_updated output if not empty
       for (int v = 0; v < count; ++v) {
         tri_verts_updated[offset] = tri_updated[v];
@@ -725,7 +728,7 @@ __device__ inline int BoxIntersections(
       }
     }
     // Update the face_verts_out tris
-    num_tris = min(MAX_TRIS, offset);
+    num_tris = offset;
     for (int j = 0; j < num_tris; ++j) {
       face_verts_out[j] = tri_verts_updated[j];
     }
