@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "label": "after",
+  "device": "cpu",
+  "device_name": "CPU",
+  "implementation": "native_public_sample_farthest_points",
+  "source_revision": "45f9132748ee1cac04e87bc7783b570b8022ae5c",
+  "captured_at_utc": "2026-10-07T19:19:42.570163+00:00",
+  "input_source_url": "https://github.com/facebookresearch/pytorch3d/files/11039116/point_cloud1.csv",
+  "input_sha256": "729927e5127f7cd74c9594c1bf792dd09296477b11467a2cbd7b74303ed2f5c9",
+  "input_shape": [
+    2048,
+    3
+  ],
+  "input_unique_coordinates": 1971,
+  "input_dtype": "float32",
+  "K": 2048,
+  "random_start_point": false,
+  "loss": "sampled.sum()",
+  "gradient_reference": "one for every input coordinate when K=P",
+  "python": "3.12.13",
+  "numpy": "2.2.6",
+  "pytorch": "2.11.0+cu130",
+  "cuda_runtime": "13.0",
+  "operating_system": "Linux",
+  "architecture": "x86_64",
+  "native_extension_sha256": "c4e386a081d00cb2ae90bc79114160fb9b3062ffe80dfa867287b0b62a089ee7",
+  "capture_file": "capture-after-cpu.npz",
+  "capture_sha256": "961de1fe745180c2b8ebff5a6d4d9473bc33e3fb8cab69488dd1abf2625328b0",
+  "metrics": {
+    "unique_indices": 2048,
+    "repeated_selections": 0,
+    "omitted_input_indices": 0,
+    "indices_selected_once": 2048,
+    "index_0_count": 1,
+    "max_selection_count": 1,
+    "unique_selected_coordinates": 1971,
+    "gradient_min": 1.0,
+    "gradient_max": 1.0,
+    "gradient_max_abs_error_vs_one": 0.0,
+    "gradient_component_rmse_vs_one": 0.0
+  }
+}

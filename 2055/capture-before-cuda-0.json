@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "label": "before",
+  "device": "cuda:0",
+  "device_name": "NVIDIA B200",
+  "implementation": "native_public_sample_farthest_points",
+  "source_revision": "88e182f989c80836f4bd744e0d9cb1852762ce01",
+  "captured_at_utc": "2026-10-07T19:19:43.480489+00:00",
+  "input_source_url": "https://github.com/facebookresearch/pytorch3d/files/11039116/point_cloud1.csv",
+  "input_sha256": "729927e5127f7cd74c9594c1bf792dd09296477b11467a2cbd7b74303ed2f5c9",
+  "input_shape": [
+    2048,
+    3
+  ],
+  "input_unique_coordinates": 1971,
+  "input_dtype": "float32",
+  "K": 2048,
+  "random_start_point": false,
+  "loss": "sampled.sum()",
+  "gradient_reference": "one for every input coordinate when K=P",
+  "python": "3.12.13",
+  "numpy": "2.2.6",
+  "pytorch": "2.11.0+cu130",
+  "cuda_runtime": "13.0",
+  "operating_system": "Linux",
+  "architecture": "x86_64",
+  "native_extension_sha256": "a18e4162e5da042ef5c730a003feaebd84794ebf6640cb7927a2d067f7ff622b",
+  "capture_file": "capture-before-cuda-0.npz",
+  "capture_sha256": "951d0d120461b0c9d788cb806a34f6911bbc823c29655678cdcaad0f2cad7f00",
+  "metrics": {
+    "unique_indices": 1971,
+    "repeated_selections": 77,
+    "omitted_input_indices": 77,
+    "indices_selected_once": 1970,
+    "index_0_count": 78,
+    "max_selection_count": 78,
+    "unique_selected_coordinates": 1971,
+    "gradient_min": 0.0,
+    "gradient_max": 78.0,
+    "gradient_max_abs_error_vs_one": 77.0,
+    "gradient_component_rmse_vs_one": 1.7124885948525321
+  }
+}

@@ -1,0 +1,7 @@
+label,device,device_name,unique_indices,repeated_selections,omitted_input_indices,indices_selected_once,index_0_count,max_selection_count,unique_selected_coordinates,gradient_min,gradient_max,gradient_max_abs_error_vs_one,gradient_component_rmse_vs_one
+before,cpu,CPU,1971,77,77,1970,78,78,1971,0.0,78.0,77.0,1.7124885948525321
+before,cuda:0,NVIDIA B200,1971,77,77,1970,78,78,1971,0.0,78.0,77.0,1.7124885948525321
+before,cuda:1,NVIDIA B200,1971,77,77,1970,78,78,1971,0.0,78.0,77.0,1.7124885948525321
+after,cpu,CPU,2048,0,0,2048,1,1,1971,1.0,1.0,0.0,0.0
+after,cuda:0,NVIDIA B200,2048,0,0,2048,1,1,1971,1.0,1.0,0.0,0.0
+after,cuda:1,NVIDIA B200,2048,0,0,2048,1,1,1971,1.0,1.0,0.0,0.0

@@ -1,0 +1,109 @@
+{
+  "input_source_url": "https://github.com/facebookresearch/pytorch3d/files/11039116/point_cloud1.csv",
+  "input_sha256": "729927e5127f7cd74c9594c1bf792dd09296477b11467a2cbd7b74303ed2f5c9",
+  "devices": [
+    "cpu",
+    "cuda:0",
+    "cuda:1"
+  ],
+  "capture_count": 6,
+  "measurements": [
+    {
+      "label": "before",
+      "device": "cpu",
+      "unique_indices": 1971,
+      "repeated_selections": 77,
+      "omitted_input_indices": 77,
+      "indices_selected_once": 1970,
+      "index_0_count": 78,
+      "max_selection_count": 78,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 0.0,
+      "gradient_max": 78.0,
+      "gradient_max_abs_error_vs_one": 77.0,
+      "gradient_component_rmse_vs_one": 1.7124885948525321
+    },
+    {
+      "label": "before",
+      "device": "cuda:0",
+      "unique_indices": 1971,
+      "repeated_selections": 77,
+      "omitted_input_indices": 77,
+      "indices_selected_once": 1970,
+      "index_0_count": 78,
+      "max_selection_count": 78,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 0.0,
+      "gradient_max": 78.0,
+      "gradient_max_abs_error_vs_one": 77.0,
+      "gradient_component_rmse_vs_one": 1.7124885948525321
+    },
+    {
+      "label": "before",
+      "device": "cuda:1",
+      "unique_indices": 1971,
+      "repeated_selections": 77,
+      "omitted_input_indices": 77,
+      "indices_selected_once": 1970,
+      "index_0_count": 78,
+      "max_selection_count": 78,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 0.0,
+      "gradient_max": 78.0,
+      "gradient_max_abs_error_vs_one": 77.0,
+      "gradient_component_rmse_vs_one": 1.7124885948525321
+    },
+    {
+      "label": "after",
+      "device": "cpu",
+      "unique_indices": 2048,
+      "repeated_selections": 0,
+      "omitted_input_indices": 0,
+      "indices_selected_once": 2048,
+      "index_0_count": 1,
+      "max_selection_count": 1,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 1.0,
+      "gradient_max": 1.0,
+      "gradient_max_abs_error_vs_one": 0.0,
+      "gradient_component_rmse_vs_one": 0.0
+    },
+    {
+      "label": "after",
+      "device": "cuda:0",
+      "unique_indices": 2048,
+      "repeated_selections": 0,
+      "omitted_input_indices": 0,
+      "indices_selected_once": 2048,
+      "index_0_count": 1,
+      "max_selection_count": 1,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 1.0,
+      "gradient_max": 1.0,
+      "gradient_max_abs_error_vs_one": 0.0,
+      "gradient_component_rmse_vs_one": 0.0
+    },
+    {
+      "label": "after",
+      "device": "cuda:1",
+      "unique_indices": 2048,
+      "repeated_selections": 0,
+      "omitted_input_indices": 0,
+      "indices_selected_once": 2048,
+      "index_0_count": 1,
+      "max_selection_count": 1,
+      "unique_selected_coordinates": 1971,
+      "gradient_min": 1.0,
+      "gradient_max": 1.0,
+      "gradient_max_abs_error_vs_one": 0.0,
+      "gradient_component_rmse_vs_one": 0.0
+    }
+  ],
+  "limitations": [
+    "One original fixture and one Linux/Python/PyTorch/CUDA software stack.",
+    "The two CUDA devices are both NVIDIA B200 GPUs.",
+    "The gradient metric checks gathered-point gradients for L=sampled.sum().",
+    "Distinct coordinate coverage is unchanged; distinct input-index coverage changes.",
+    "No performance benchmark, downstream model training or accuracy claim."
+  ]
+}
