@@ -48,7 +48,6 @@ __global__ void IoUBox3DKernel(
     at::PackedTensorAccessor64<float, 2, at::RestrictPtrTraits> vols,
     at::PackedTensorAccessor64<float, 2, at::RestrictPtrTraits> ious,
     FaceVerts* triangles,
-    Keep* keep,
     const size_t workers) {
   const size_t N = boxes1.size(0);
   const size_t M = boxes2.size(0);
@@ -64,7 +63,6 @@ __global__ void IoUBox3DKernel(
       triangles + slab_size + tid, workers};
   WorkspaceArray<FaceVerts> tri_verts_updated{
       triangles + 2 * slab_size + tid, workers};
-  WorkspaceArray<Keep> tri2_keep{keep + tid, workers};
 
   FaceVerts box1_tris[NUM_TRIS];
   FaceVerts box2_tris[NUM_TRIS];
@@ -110,29 +108,21 @@ __global__ void IoUBox3DKernel(
         box1_planes, box1_center, box2_intersect, tri_verts_updated);
     int box2_keep_count = 0;
 
-    // If there are overlapping regions in Box2, remove any coplanar faces
-    if (box2_count > 0) {
-      // Identify if any triangles in Box2 are coplanar with Box1
-      for (int j = 0; j < box2_count; ++j) {
-        tri2_keep[j].keep = true;
-      }
+    // Keep only the triangles in Box2 that are not coplanar with a
+    // non-degenerate triangle in Box1. Box1 is not modified, so Box2 can be
+    // compacted in place as it is scanned.
+    for (int b2 = 0; b2 < box2_count; ++b2) {
+      bool keep = true;
       for (int b1 = 0; b1 < box1_count; ++b1) {
-        for (int b2 = 0; b2 < box2_count; ++b2) {
-          const bool is_coplanar =
-              IsCoplanarTriTri(box1_intersect[b1], box2_intersect[b2]);
-          const float area = FaceArea(box1_intersect[b1]);
-          if ((is_coplanar) && (area > aEpsilon)) {
-            tri2_keep[b2].keep = false;
-          }
+        if (FaceArea(box1_intersect[b1]) > aEpsilon &&
+            IsCoplanarTriTri(box1_intersect[b1], box2_intersect[b2])) {
+          keep = false;
+          break;
         }
       }
-
-      // Compact only after all coplanar comparisons have finished.
-      for (int b2 = 0; b2 < box2_count; ++b2) {
-        if (tri2_keep[b2].keep) {
-          box2_intersect[box2_keep_count] = box2_intersect[b2];
-          box2_keep_count++;
-        }
+      if (keep) {
+        box2_intersect[box2_keep_count] = box2_intersect[b2];
+        box2_keep_count++;
       }
     }
 
@@ -194,15 +184,13 @@ std::tuple<at::Tensor, at::Tensor> IoUBox3DCuda(
   const int64_t threads = 32;
   // Bound scratch allocation independently of the number of box pairs.
   const int64_t workspace_budget = 256 * 1024 * 1024;
-  const int64_t worker_bytes =
-      MAX_TRIS * (3 * sizeof(FaceVerts) + sizeof(Keep));
+  const int64_t worker_bytes = 3 * MAX_TRIS * sizeof(FaceVerts);
   const int64_t max_workers =
       workspace_budget / worker_bytes / threads * threads;
   const int64_t workers = std::min(vols.numel(), max_workers);
   auto workspace =
       at::empty({workers * worker_bytes}, boxes1.options().dtype(at::kByte));
   auto* triangles = reinterpret_cast<FaceVerts*>(workspace.data_ptr<uint8_t>());
-  auto* keep = reinterpret_cast<Keep*>(triangles + 3 * MAX_TRIS * workers);
   const int64_t blocks = (workers + threads - 1) / threads;
 
   IoUBox3DKernel<<<blocks, threads, 0, stream>>>(
@@ -211,7 +199,6 @@ std::tuple<at::Tensor, at::Tensor> IoUBox3DCuda(
       vols.packed_accessor64<float, 2, at::RestrictPtrTraits>(),
       ious.packed_accessor64<float, 2, at::RestrictPtrTraits>(),
       triangles,
-      keep,
       workers);
 
   AT_CUDA_CHECK(cudaGetLastError());

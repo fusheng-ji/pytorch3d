@@ -52,12 +52,6 @@ struct FaceVertsIdx {
   int v3; // Can be empty for triangles
 };
 
-// This is used when deciding which faces to
-// keep that are not coplanar
-struct Keep {
-  bool keep;
-};
-
 __device__ FaceVertsIdx _PLANES[] = {
     {0, 1, 2, 3},
     {3, 2, 6, 7},
@@ -706,6 +700,12 @@ __device__ inline int BoxIntersections(
     const float3& center,
     FaceVertsBox& face_verts_out,
     FaceVertsBox& tri_verts_updated) {
+  // Alternate between the two buffers instead of copying the clipped tris
+  // back after every plane. An even number of planes leaves the final tris
+  // in face_verts_out.
+  static_assert(NUM_PLANES % 2 == 0, "Clipped tris must end in face_verts_out");
+  FaceVertsBox* tris_in = &face_verts_out;
+  FaceVertsBox* tris_out = &tri_verts_updated;
   // Initialize num tris to 12
   int num_tris = NUM_TRIS;
   for (int p = 0; p < NUM_PLANES; ++p) {
@@ -713,25 +713,24 @@ __device__ inline int BoxIntersections(
     const float3 n2 = PlaneNormalDirection(planes[p], center);
     int offset = 0;
 
-    // Iterate through triangles in face_verts_out
+    // Iterate through triangles in tris_in
     // for the valid tris given by num_tris
     for (int t = 0; t < num_tris; ++t) {
       // Clip tri by plane, can max be split into 2 triangles
       FaceVerts tri_updated[2];
       const int count =
-          ClipTriByPlane(planes[p], face_verts_out[t], n2, tri_updated);
+          ClipTriByPlane(planes[p], (*tris_in)[t], n2, tri_updated);
       CUDA_KERNEL_ASSERT(offset + count <= MAX_TRIS);
-      // Add to the tri_verts_updated output if not empty
+      // Add to the tris_out output if not empty
       for (int v = 0; v < count; ++v) {
-        tri_verts_updated[offset] = tri_updated[v];
+        (*tris_out)[offset] = tri_updated[v];
         offset++;
       }
     }
-    // Update the face_verts_out tris
     num_tris = offset;
-    for (int j = 0; j < num_tris; ++j) {
-      face_verts_out[j] = tri_verts_updated[j];
-    }
+    FaceVertsBox* const tris_tmp = tris_in;
+    tris_in = tris_out;
+    tris_out = tris_tmp;
   }
   return num_tris;
 }
