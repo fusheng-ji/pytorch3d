@@ -1,0 +1,13 @@
+device,case,before_accepted,after_accepted,before_native_called,after_native_called,old_aggregate_abs,per_face_abs_max,before_iou_0_0,after_iou_0_0
+cpu,cancel/batch1/first,True,False,True,False,0.0,0.25,0.9166667461395264,
+cpu,affine/identity,True,True,True,True,0.0,0.0,1.0,1.0
+cpu,issue1894/batch1,True,True,True,True,0.0,0.0,1.0,1.0
+cpu,issue1894/batch2,True,True,True,True,0.0,0.0,1.0,1.0
+cuda:0,cancel/batch1/first,True,False,True,False,0.0,0.25,0.9166667461395264,
+cuda:0,affine/identity,True,True,True,True,0.0,0.0,1.0,1.0
+cuda:0,issue1894/batch1,True,True,True,True,0.0,0.0,0.9999996423721313,0.9999996423721313
+cuda:0,issue1894/batch2,True,True,True,True,0.0,0.0,0.9999996423721313,0.9999996423721313
+cuda:1,cancel/batch1/first,True,False,True,False,0.0,0.25,0.9166667461395264,
+cuda:1,affine/identity,True,True,True,True,0.0,0.0,1.0,1.0
+cuda:1,issue1894/batch1,True,True,True,True,0.0,0.0,0.9999996423721313,0.9999996423721313
+cuda:1,issue1894/batch2,True,True,True,True,0.0,0.0,0.9999996423721313,0.9999996423721313

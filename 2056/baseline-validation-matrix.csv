@@ -1,0 +1,206 @@
+variant,test,device,camera,mode,masked,aggregator,status,error
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,OrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cpu,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,OrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:0,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,OrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_nonpositive_camera_depth,cuda:1,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cpu,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:0,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_transformed_cameras_and_point_grid,cuda:1,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cpu,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:0,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,OrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,OrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_and_sequence_masks,cuda:1,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: Tensor-likes are not close!
+baseline,test_depth_gradients,cpu,PerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cpu,PerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cpu,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,OrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cpu,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,OrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:0,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,PerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,OrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,nearest,False,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,nearest,True,,FAIL,AssertionError: 2 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,bilinear,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,bilinear,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,bicubic,False,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,FoVPerspectiveCameras,bicubic,True,,FAIL,AssertionError: 3 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,nearest,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,nearest,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,bilinear,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,bilinear,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,bicubic,False,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradients,cuda:1,FoVOrthographicCameras,bicubic,True,,FAIL,AssertionError: 4 != 0
+baseline,test_depth_gradcheck,cpu,PerspectiveCameras,bilinear,True,,PASS,
+baseline,test_sampler_aggregator_backward,cpu,,bilinear,False,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cpu,,bilinear,True,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cpu,,bilinear,False,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0
+baseline,test_sampler_aggregator_backward,cpu,,bilinear,True,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0
+baseline,test_sampler_aggregator_backward,cuda:0,,bilinear,False,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cuda:0,,bilinear,True,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cuda:0,,bilinear,False,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0
+baseline,test_sampler_aggregator_backward,cuda:0,,bilinear,True,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0
+baseline,test_sampler_aggregator_backward,cuda:1,,bilinear,False,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cuda:1,,bilinear,True,IdentityFeatureAggregator,FAIL,AssertionError: 4 != 0
+baseline,test_sampler_aggregator_backward,cuda:1,,bilinear,False,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0
+baseline,test_sampler_aggregator_backward,cuda:1,,bilinear,True,ReductionFeatureAggregator,FAIL,AssertionError: 2 != 0

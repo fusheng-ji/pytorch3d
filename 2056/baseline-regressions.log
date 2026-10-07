@@ -1,0 +1,2567 @@
+test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) ...
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) ...
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='OrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='OrthographicCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVOrthographicCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='OrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='OrthographicCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVOrthographicCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='OrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='OrthographicCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVOrthographicCameras', masked=True) ... FAIL
+test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) ...
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='OrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='OrthographicCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVOrthographicCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='OrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='OrthographicCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVOrthographicCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='PerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='PerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='OrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='OrthographicCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVPerspectiveCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVPerspectiveCameras', masked=True) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVOrthographicCameras', masked=False) ... FAIL
+  test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVOrthographicCameras', masked=True) ... FAIL
+test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) ...
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=True) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=False) ... FAIL
+  test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=True) ... FAIL
+test_depth_gradcheck (camera_regression_candidate.TestViewsampling.test_depth_gradcheck) ... ok
+test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) ...
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='IdentityFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='IdentityFeatureAggregator', masked=True) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='ReductionFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='ReductionFeatureAggregator', masked=True) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='IdentityFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='IdentityFeatureAggregator', masked=True) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='ReductionFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='ReductionFeatureAggregator', masked=True) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='IdentityFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='IdentityFeatureAggregator', masked=True) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='ReductionFeatureAggregator', masked=False) ... FAIL
+  test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='ReductionFeatureAggregator', masked=True) ... FAIL
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 83, in test_nonpositive_camera_depth
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 4 / 8 (50.0%)
+Greatest absolute difference: 3.0 at index (0, 0, 2, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 2, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cpu', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:0', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) (device='cuda:1', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 124, in test_transformed_cameras_and_point_grid
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 30 / 72 (41.7%)
+Greatest absolute difference: 1.0 at index (0, 0, 0, 0, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 0, 0, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cpu', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:0', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='PerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='PerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='OrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='OrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVPerspectiveCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVPerspectiveCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVOrthographicCameras', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) (device='cuda:1', camera='FoVOrthographicCameras', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 157, in test_depth_and_sequence_masks
+    torch.testing.assert_close(
+  File "<python-env>/lib/python3.12/site-packages/torch/testing/_comparison.py", line 1600, in assert_close
+    raise error_metas[0].to_error(msg)
+AssertionError: Tensor-likes are not close!
+
+Mismatched elements: 8 / 24 (33.3%)
+Greatest absolute difference: 1.0 at index (0, 0, 1, 0) (up to 1e-05 allowed)
+Greatest relative difference: inf at index (0, 0, 1, 0) (up to 1.3e-06 allowed)
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cpu', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:0', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='PerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='OrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVPerspectiveCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 3 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='nearest', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bilinear', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) (device='cuda:1', camera='FoVOrthographicCameras', mode='bicubic', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 217, in test_depth_gradients
+    self.assertEqual(torch.count_nonzero(grad).item(), 0)
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='IdentityFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='IdentityFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='ReductionFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cpu', aggregator='ReductionFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='IdentityFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='IdentityFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='ReductionFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:0', aggregator='ReductionFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='IdentityFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='IdentityFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 4 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='ReductionFeatureAggregator', masked=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+======================================================================
+FAIL: test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) (device='cuda:1', aggregator='ReductionFeatureAggregator', masked=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "tests/implicitron/test_viewsampling.py", line 346, in test_sampler_aggregator_backward
+    self.assertEqual(
+AssertionError: 2 != 0
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.306s
+
+FAILED (failures=204)

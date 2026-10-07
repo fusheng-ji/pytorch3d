@@ -1,0 +1,15 @@
+{
+  "README.txt": "6cdec3d19c268b9deb5e1adaa6da8a25096390ba1d16bfa81510a48be5abc141",
+  "after-environment.json": "c6a1f0edf504a807a7ff78194eec5c6c571de2289d5bfa49e47508e5e728af10",
+  "after-face-residuals.csv": "be7be8bf053507537193477067fe223e2f304e1567e791692469f816540e8c72",
+  "after-matrix.csv": "7b39270b5fe65be6ac955be8885bce1e32ae4bf470030a8e805916b837b255a4",
+  "before-environment.json": "d119b0a23a9b750d81a1ecb29e53798bcc3086a60b55290cf7556e4bf0e99760",
+  "before-face-residuals.csv": "eccf03601573290b64efcf1791eb3d79e0e170c8a36b753b167d3328f818e171",
+  "before-matrix.csv": "e2d6057d501479ffe34862f37f6a2437da4e3cc7dff671f56e893b76dbe7c3b7",
+  "comparison-summary.csv": "9b2e53dcbe75cd521aa0fc9f7deb380fb05fc5fd8a64648c3af608b689f84f4f",
+  "coplanarity-comparison.png": "1ad303cfed687bb3870e6f97559701c61496fed2e86c69213fed4eca27de0778",
+  "coplanarity-comparison.svg": "0978fa7a930e2af289dc7e812f9152df312d22a0db1d05084352f29da031d6d6",
+  "repository-checks.json": "8cbf5b74a2c62e30ebf73c1ee921f73465499772082896f23e9ef4c7d50d34f0",
+  "reproduce.py": "0b0d9b2097c629d07dbaa4eff2588e1380b1d52a88e0990ea05165c4bcd3cade",
+  "validation-matrix.csv": "b70d6c9266362f4f0ad5fa254b8408d234b56d2f32224831672e59566b0ad719"
+}

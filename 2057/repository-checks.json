@@ -1,0 +1,38 @@
+{
+  "pull_request": "https://github.com/facebookresearch/pytorch3d/pull/2057",
+  "baseline_revision": "88e182f989c80836f4bd744e0d9cb1852762ce01",
+  "published_source_revision": "4b2cd2e86dfbd7ab137007907f4c6bcc2f2b5580",
+  "focused_test_methods": 10,
+  "focused_suite_seed": 0,
+  "full_suite_command": "python -m unittest discover -v -s tests -t .",
+  "baseline_full_suite": {
+    "reported_tests": 849,
+    "failures": 0,
+    "errors": 38,
+    "skipped": 1
+  },
+  "patched_full_suite": {
+    "reported_tests": 853,
+    "failures": 0,
+    "errors": 38,
+    "skipped": 1
+  },
+  "full_suite_error_ids_match_baseline": true,
+  "error_categories": {
+    "missing_optional_dependency": 18,
+    "torchvision_checkpoint_cache_not_writable": 15,
+    "imageio_single_channel_write": 1,
+    "optional_import_unavailable": 4
+  },
+  "repository_linter_exit_code": 2,
+  "repository_linter_limitation": "legacy usort directory invocation rejected by installed CLI",
+  "changed_file_usort_black_flake8_diff_checks": "PASS",
+  "tracked_files_changed": 2,
+  "new_test_methods": 4,
+  "new_test_subcases": 42,
+  "baseline_regression_failures": 8,
+  "baseline_regression_errors": 2,
+  "patched_matrix_rows": 69,
+  "patched_matrix_passes": 69,
+  "iou_seed6_existing_failure": "same baseline maximum absolute difference5.728006e-05; relative1.507102e-04"
+}

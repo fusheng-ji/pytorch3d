@@ -1,0 +1,119 @@
+test_compare_with_naive (tests.implicitron.test_viewsampling.TestViewsampling.test_compare_with_naive)
+Compares the outputs of the efficient ViewSampler module with a ... ok
+test_depth_and_sequence_masks (tests.implicitron.test_viewsampling.TestViewsampling.test_depth_and_sequence_masks) ... ok
+test_depth_gradcheck (tests.implicitron.test_viewsampling.TestViewsampling.test_depth_gradcheck) ... <python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #0 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+<python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #1 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+<python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #2 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+<python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #3 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+<python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #4 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+<python-env>/lib/python3.12/site-packages/torch/autograd/gradcheck.py:2125: UserWarning: Input #5 requires gradient and is not a double precision floating point or complex. This check will likely fail if all the inputs are not of double precision floating point or complex.
+  _check_inputs(tupled_inputs)
+ok
+test_depth_gradients (tests.implicitron.test_viewsampling.TestViewsampling.test_depth_gradients) ... ok
+test_nonpositive_camera_depth (tests.implicitron.test_viewsampling.TestViewsampling.test_nonpositive_camera_depth) ... ok
+test_sampler_aggregator_backward (tests.implicitron.test_viewsampling.TestViewsampling.test_sampler_aggregator_backward) ... ok
+test_transformed_cameras_and_point_grid (tests.implicitron.test_viewsampling.TestViewsampling.test_transformed_cameras_and_point_grid) ... ok
+test_viewsampling (tests.implicitron.test_viewsampling.TestViewsampling.test_viewsampling)
+Generates a viewsampling problem with predictable outcome, and compares ... ok
+test_camera_position_from_angles_mixed_scalars (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_mixed_scalars) ... ok
+test_camera_position_from_angles_python_scalar (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_python_scalar) ... ok
+test_camera_position_from_angles_python_scalar_radians (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_python_scalar_radians) ... ok
+test_camera_position_from_angles_torch_scalar_grads (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_torch_scalar_grads) ... ok
+test_camera_position_from_angles_torch_scalars (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_torch_scalars) ... ok
+test_camera_position_from_angles_vectors (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_vectors) ... ok
+test_camera_position_from_angles_vectors_bad_broadcast (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_vectors_bad_broadcast) ... ok
+test_camera_position_from_angles_vectors_broadcast (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_vectors_broadcast) ... ok
+test_camera_position_from_angles_vectors_mixed_broadcast (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_vectors_mixed_broadcast) ... ok
+test_camera_position_from_angles_vectors_mixed_broadcast_grads (tests.test_cameras.TestCameraHelpers.test_camera_position_from_angles_vectors_mixed_broadcast_grads) ... ok
+test_look_at_rotation_input_fail (tests.test_cameras.TestCameraHelpers.test_look_at_rotation_input_fail) ... ok
+test_look_at_rotation_list_broadcast (tests.test_cameras.TestCameraHelpers.test_look_at_rotation_list_broadcast) ... ok
+test_look_at_rotation_python_list (tests.test_cameras.TestCameraHelpers.test_look_at_rotation_python_list) ... ok
+test_look_at_rotation_tensor_broadcast (tests.test_cameras.TestCameraHelpers.test_look_at_rotation_tensor_broadcast) ... ok
+test_look_at_rotation_tensor_grad (tests.test_cameras.TestCameraHelpers.test_look_at_rotation_tensor_grad) ... ok
+test_look_at_view_transform_corner_case (tests.test_cameras.TestCameraHelpers.test_look_at_view_transform_corner_case) ... ok
+test_look_at_view_transform_default_values (tests.test_cameras.TestCameraHelpers.test_look_at_view_transform_default_values) ... ok
+test_look_at_view_transform_from_eye_point_tuple (tests.test_cameras.TestCameraHelpers.test_look_at_view_transform_from_eye_point_tuple) ... ok
+test_look_at_view_transform_non_default_at_position (tests.test_cameras.TestCameraHelpers.test_look_at_view_transform_non_default_at_position) ... ok
+test_view_transform (tests.test_cameras.TestCameraHelpers.test_view_transform) ... ok
+test_K (tests.test_cameras.TestCamerasCommon.test_K) ... ok
+test_clone (tests.test_cameras.TestCamerasCommon.test_clone)
+Checks the clone function of the cameras. ... pytorch3d/renderer/cameras.py:1252: PendingDeprecationWarning: SfMOrthographicCameras is deprecated,
+        Use OrthographicCameras instead.
+        SfMOrthographicCameras will be removed in future releases.
+  warnings.warn(
+tests/common_testing.py:92: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  self.assertNotEqual(tensor1.storage().data_ptr(), tensor2.storage().data_ptr())
+pytorch3d/renderer/cameras.py:486: PendingDeprecationWarning: OpenGLPerspectiveCameras is deprecated,
+        Use FoVPerspectiveCameras instead.
+        OpenGLPerspectiveCameras will be removed in future releases.
+  warnings.warn(
+pytorch3d/renderer/cameras.py:770: PendingDeprecationWarning: OpenGLOrthographicCameras is deprecated,
+        Use FoVOrthographicCameras instead.
+        OpenGLOrthographicCameras will be removed in future releases.
+  warnings.warn(
+pytorch3d/renderer/cameras.py:1012: PendingDeprecationWarning: SfMPerspectiveCameras is deprecated,
+        Use PerspectiveCameras instead.
+        SfMPerspectiveCameras will be removed in future releases.
+  warnings.warn(
+ok
+test_equiv_project_points (tests.test_cameras.TestCamerasCommon.test_equiv_project_points)
+Checks that NDC and screen cameras project points to ndc correctly. ... ok
+test_get_camera_center (tests.test_cameras.TestCamerasCommon.test_get_camera_center) ... ok
+test_iterable (tests.test_cameras.TestCamerasCommon.test_iterable) ... ok
+test_join_batch_orthographic (tests.test_cameras.TestCamerasCommon.test_join_batch_orthographic) ... ok
+test_join_batch_perspective (tests.test_cameras.TestCamerasCommon.test_join_batch_perspective) ... ok
+test_join_cameras_as_batch_errors (tests.test_cameras.TestCamerasCommon.test_join_cameras_as_batch_errors) ... ok
+test_project_points_screen (tests.test_cameras.TestCamerasCommon.test_project_points_screen)
+Checks that an unprojection of a randomly projected point cloud ... ok
+test_unproject_points (tests.test_cameras.TestCamerasCommon.test_unproject_points)
+Checks that an unprojection of a randomly projected point cloud ... ok
+test_view_transform_class_method (tests.test_cameras.TestCamerasCommon.test_view_transform_class_method) ... ok
+test_cuda (tests.test_cameras.TestFishEyeProjection.test_cuda)
+Test cuda device ... ok
+test_distortion_params_set_to_zeors (tests.test_cameras.TestFishEyeProjection.test_distortion_params_set_to_zeors) ... ok
+test_fisheye_against_perspective_cameras (tests.test_cameras.TestFishEyeProjection.test_fisheye_against_perspective_cameras) ... ok
+test_getitem (tests.test_cameras.TestFishEyeProjection.test_getitem) ... ok
+test_project_shape_broadcasts (tests.test_cameras.TestFishEyeProjection.test_project_shape_broadcasts) ... ok
+test_unhandled_shape (tests.test_cameras.TestFishEyeProjection.test_unhandled_shape)
+Test error handling when shape of transforms ... ok
+test_unproject_shape_broadcasts (tests.test_cameras.TestFishEyeProjection.test_unproject_shape_broadcasts) ... ok
+test_getitem (tests.test_cameras.TestFoVOrthographicProjection.test_getitem) ... ok
+test_orthographic (tests.test_cameras.TestFoVOrthographicProjection.test_orthographic) ... ok
+test_orthographic_kwargs (tests.test_cameras.TestFoVOrthographicProjection.test_orthographic_kwargs) ... ok
+test_orthographic_mixed_inputs_broadcast (tests.test_cameras.TestFoVOrthographicProjection.test_orthographic_mixed_inputs_broadcast) ... ok
+test_orthographic_mixed_inputs_grad (tests.test_cameras.TestFoVOrthographicProjection.test_orthographic_mixed_inputs_grad) ... tests/test_cameras.py:1087: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  grad_scale = torch.tensor(
+ok
+test_orthographic_scaled (tests.test_cameras.TestFoVOrthographicProjection.test_orthographic_scaled) ... ok
+test_perspective_type (tests.test_cameras.TestFoVOrthographicProjection.test_perspective_type) ... ok
+test_camera_class_init (tests.test_cameras.TestFoVPerspectiveProjection.test_camera_class_init) ... ok
+test_get_full_transform (tests.test_cameras.TestFoVPerspectiveProjection.test_get_full_transform) ... ok
+test_getitem (tests.test_cameras.TestFoVPerspectiveProjection.test_getitem) ... ok
+test_perspective (tests.test_cameras.TestFoVPerspectiveProjection.test_perspective) ... ok
+test_perspective_kwargs (tests.test_cameras.TestFoVPerspectiveProjection.test_perspective_kwargs) ... ok
+test_perspective_mixed_inputs_broadcast (tests.test_cameras.TestFoVPerspectiveProjection.test_perspective_mixed_inputs_broadcast) ... ok
+test_perspective_mixed_inputs_grad (tests.test_cameras.TestFoVPerspectiveProjection.test_perspective_mixed_inputs_grad) ... ok
+test_perspective_type (tests.test_cameras.TestFoVPerspectiveProjection.test_perspective_type) ... ok
+test_transform_points (tests.test_cameras.TestFoVPerspectiveProjection.test_transform_points) ... ok
+test_getitem (tests.test_cameras.TestOrthographicProjection.test_getitem) ... ok
+test_orthographic (tests.test_cameras.TestOrthographicProjection.test_orthographic) ... ok
+test_orthographic_kwargs (tests.test_cameras.TestOrthographicProjection.test_orthographic_kwargs) ... ok
+test_orthographic_scaled (tests.test_cameras.TestOrthographicProjection.test_orthographic_scaled) ... ok
+test_perspective_type (tests.test_cameras.TestOrthographicProjection.test_perspective_type) ... ok
+test_clone_picklable (tests.test_cameras.TestPerspectiveProjection.test_clone_picklable) ... ok
+test_getitem (tests.test_cameras.TestPerspectiveProjection.test_getitem) ... ok
+test_perspective (tests.test_cameras.TestPerspectiveProjection.test_perspective) ... ok
+test_perspective_kwargs (tests.test_cameras.TestPerspectiveProjection.test_perspective_kwargs) ... ok
+test_perspective_scaled (tests.test_cameras.TestPerspectiveProjection.test_perspective_scaled) ... ok
+test_perspective_type (tests.test_cameras.TestPerspectiveProjection.test_perspective_type) ... ok
+
+----------------------------------------------------------------------
+Ran 73 tests in 4.751s
+
+OK

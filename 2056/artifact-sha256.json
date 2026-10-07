@@ -1,0 +1,16 @@
+{
+  "README.txt": "3139679a651f1532f92a8bb400e615c8ae479d20acbdc0d8b71cfe0387edc22f",
+  "baseline-environment.json": "9e0a916a619fecee9a58e9135ac116c0df1d14364d721e239b9a1ca6353bf552",
+  "baseline-numerical-results.csv": "bbe476b30e552e44b56e826637a987fe7cc69c32cd67fe3a8ca1f90cd29a1d39",
+  "baseline-regressions.log": "cc287821efc41ce2e77475adcb9e44633158671df01f1aa3c8d7d3bc3359654b",
+  "baseline-validation-matrix.csv": "9fc15fdd3b483a0b021e20b12ceeaa0e8b9782606ace983bf615c0134212fd79",
+  "camera-depth-comparison.png": "d480aa22769761ea17e661b6c213c2561bfb714a2557e5851a01a1785874058e",
+  "camera-depth-comparison.svg": "7b32e21388de03cda27f468dd1723f1e7f6d0079e3f7510a0a121ad7099b6a39",
+  "capture_camera_evidence.py": "40b1b5d98eefb13e1a52a4540266083ba7fe0f2c25f3e35584a162c075cd408e",
+  "focused-and-cameras.log": "038ae3ab962292c52cf9d176bbba8be5e13a68c4f163d9c691abc3f0d2b9ed74",
+  "patched-environment.json": "4999972eb56583cd5f5424cfd2c47a9cea05e58d159a0140b7910215e7e295bc",
+  "patched-numerical-results.csv": "ad50047b73bcffda97b061570153f744e19d0e2fb1d5561e4fc5916fec6a8ddd",
+  "patched-regressions.log": "40b0f8f7ba13f7f935ab0898689827e58fd816012fd8616cc0e9f590dd173aac",
+  "patched-validation-matrix.csv": "2ee8d9269fc00f74ce6ca29226eeaca82e39a4ea1fa19cd1d2593237106d1e47",
+  "repository-checks.json": "e2b1e220d4237ee83af73f4ed28b36c169995bf4f4560b088db1085f3cd8867f"
+}

@@ -1,0 +1,22 @@
+{
+  "label": "before",
+  "python_precision": "float32 boxes",
+  "python": "3.12.13",
+  "platform": "Linux",
+  "source_commit": "88e182f989c80836f4bd744e0d9cb1852762ce01",
+  "pytorch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "devices": [
+    "cpu",
+    "cuda:0",
+    "cuda:1"
+  ],
+  "gpu_names": [
+    "NVIDIA B200",
+    "NVIDIA B200"
+  ],
+  "native_extension_available": true,
+  "matrix_rows": 69,
+  "pass_rows": 54,
+  "baseline_reproductions": 15
+}

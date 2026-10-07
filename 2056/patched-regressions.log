@@ -1,0 +1,11 @@
+test_nonpositive_camera_depth (camera_regression_candidate.TestViewsampling.test_nonpositive_camera_depth) ... ok
+test_transformed_cameras_and_point_grid (camera_regression_candidate.TestViewsampling.test_transformed_cameras_and_point_grid) ... ok
+test_depth_and_sequence_masks (camera_regression_candidate.TestViewsampling.test_depth_and_sequence_masks) ... ok
+test_depth_gradients (camera_regression_candidate.TestViewsampling.test_depth_gradients) ... ok
+test_depth_gradcheck (camera_regression_candidate.TestViewsampling.test_depth_gradcheck) ... ok
+test_sampler_aggregator_backward (camera_regression_candidate.TestViewsampling.test_sampler_aggregator_backward) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.584s
+
+OK

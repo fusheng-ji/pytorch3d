@@ -1,0 +1,31 @@
+{
+  "variant": "baseline",
+  "source_commit": "88e182f989c80836f4bd744e0d9cb1852762ce01",
+  "source_file_sha256": "05fc7a54787123888b49a21e58f96973102ada80f377a1ea81c574a1cfa7e0cf",
+  "regression_test_sha256": "33d8208263116a81f02f0503add8b00758de36da07e2efaeb9816b8238fcbeea",
+  "modified_source_files": [],
+  "python": "3.12.13",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "devices": {
+    "cpu": "CPU",
+    "cuda:0": "NVIDIA B200",
+    "cuda:1": "NVIDIA B200"
+  },
+  "regression_methods": 6,
+  "regression_cases": 205,
+  "passed_cases": 1,
+  "failed_cases": 204,
+  "float64_public_path": "expected scalar type Float but found Double",
+  "gradcheck": {
+    "dtype": "float32",
+    "eps": 0.001,
+    "atol": 0.001,
+    "rtol": 0.01
+  },
+  "limitations": [
+    "One Linux/software/GPU-model stack",
+    "No downstream training",
+    "No comprehensive performance benchmark"
+  ]
+}
