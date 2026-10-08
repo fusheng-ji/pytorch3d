@@ -1,0 +1,21 @@
+========= COMPUTE-SANITIZER
+test_iou_batched_worker_reuse_cpu (tests.test_iou_box3d.TestIoU3D.test_iou_batched_worker_reuse_cpu) ... ok
+test_iou_batched_worker_reuse_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_batched_worker_reuse_cuda) ... <checkout>/tests/test_iou_box3d.py:720: UserWarning: Specified kernel cache directory is not writable! This disables kernel caching. Specified directory is <path> This warning will appear only once per process. (Triggered internally at /pytorch/aten/src/ATen/native/cuda/jit_utils.cpp:1523.)
+  volumes = intersection_lengths.prod(dim=1)[None]
+ok
+test_iou_cuda_device_guard (tests.test_iou_box3d.TestIoU3D.test_iou_cuda_device_guard) ... ok
+test_iou_empty_inputs_cpu (tests.test_iou_box3d.TestIoU3D.test_iou_empty_inputs_cpu) ... ok
+test_iou_empty_inputs_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_empty_inputs_cuda) ... ok
+test_iou_gh1805_cpu (tests.test_iou_box3d.TestIoU3D.test_iou_gh1805_cpu) ... ok
+test_iou_gh1805_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_gh1805_cuda) ... ok
+test_iou_nondefault_stream_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_nondefault_stream_cuda) ... ok
+test_iou_repeated_invocations_cpu (tests.test_iou_box3d.TestIoU3D.test_iou_repeated_invocations_cpu) ... ok
+test_iou_repeated_invocations_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_repeated_invocations_cuda) ... ok
+test_iou_worker_counts_cpu (tests.test_iou_box3d.TestIoU3D.test_iou_worker_counts_cpu) ... ok
+test_iou_worker_counts_cuda (tests.test_iou_box3d.TestIoU3D.test_iou_worker_counts_cuda) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 7.984s
+
+OK
+========= ERROR SUMMARY: 0 errors

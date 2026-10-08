@@ -1,0 +1,16 @@
+========= COMPUTE-SANITIZER
+<checkout>/build/iou-capacity-validation/small-capacity/iou_box3d/iou_utils.cuh:720: BoxIntersections: block: [0,0,0], thread: [0,0,0] Assertion `offset + count <= MAX_TRIS` failed.
+========= Warp assert
+=========     at __assertfail+0x1db0
+=========     by thread (0,0,0) in block (0,0,0)
+=========         Device Frame: __assertfail+0x1d40
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========         Host Frame: main [0x8f20] in guard
+========= 
+========= Program hit cudaErrorAssert (error 710) due to "device-side assert triggered" on CUDA API call to cudaDeviceSynchronize.
+=========     Saved host backtrace up to driver entry point at error
+=========         Host Frame: main [0x8ca6] in guard
+========= 
+kernel synchronization: device-side assert triggered
+========= Target application returned an error
+========= ERROR SUMMARY: 2 errors

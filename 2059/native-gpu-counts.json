@@ -1,0 +1,155 @@
+[
+  {
+    "backend": "native CUDA helper trace",
+    "capacity": 768,
+    "trace": [
+      [
+        12,
+        14,
+        19,
+        30,
+        30,
+        30,
+        31
+      ],
+      [
+        12,
+        18,
+        27,
+        35,
+        50,
+        76,
+        109
+      ]
+    ],
+    "counts": [
+      31,
+      109
+    ],
+    "retained_second": 109,
+    "merged": 140,
+    "volume": 0.0310588535,
+    "iou": 0.166918442,
+    "overflow": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "merge_limit": 100,
+    "merge_first_invalid_index": 100,
+    "merge_second_index": 69
+  },
+  {
+    "backend": "native CUDA helper trace",
+    "capacity": 100,
+    "trace": [
+      [
+        12,
+        14,
+        19,
+        30,
+        30,
+        30,
+        31
+      ],
+      [
+        12,
+        18,
+        27,
+        35,
+        50,
+        76,
+        -1
+      ]
+    ],
+    "counts": [
+      31,
+      -1
+    ],
+    "retained_second": -1,
+    "merged": -1,
+    "volume": null,
+    "iou": null,
+    "overflow": [
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        5,
+        70,
+        76,
+        100,
+        1
+      ]
+    ],
+    "merge_limit": -1,
+    "merge_first_invalid_index": -1,
+    "merge_second_index": -1
+  },
+  {
+    "backend": "native CUDA helper trace",
+    "capacity": 16,
+    "trace": [
+      [
+        12,
+        14,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        12,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    ],
+    "counts": [
+      -1,
+      -1
+    ],
+    "retained_second": -1,
+    "merged": -1,
+    "volume": null,
+    "iou": null,
+    "overflow": [
+      [
+        1,
+        11,
+        14,
+        15,
+        2
+      ],
+      [
+        0,
+        11,
+        12,
+        16,
+        2
+      ]
+    ],
+    "merge_limit": -1,
+    "merge_first_invalid_index": -1,
+    "merge_second_index": -1
+  }
+]
