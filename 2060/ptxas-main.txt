@@ -1,0 +1,2 @@
+    15408 bytes stack frame, 328 bytes spill stores, 620 bytes spill loads
+ptxas info    : Used 255 registers, used 0 barriers, 15408 bytes cumulative stack size
